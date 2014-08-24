@@ -1,6 +1,6 @@
 {
   "name": "socket-services-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Exceptionally featureful Websocket-based REST middleware",
   "keywords": [
     "websocket",
@@ -26,7 +26,7 @@
       "url": "http://www.opensource.org/licenses/MIT"
     }
   ],
-  "main": "./lib/socket-services-client.js",
+  "main": "./lib/SocketClient.js",
   "dependencies": {
     "clerobee": "latest",
     "lodash": "latest",
@@ -38,10 +38,10 @@
     "gulp-jshint": "latest",
     "gulp-load-plugins": "latest",
     "gulp-mocha": "latest",
-    "socket-services": "latest"
+	  "socket-services": "latest"
   },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "_id": "socket-services-client@1.3.1"
+  "_id": "socket-services-client@0.0.2"
 }
