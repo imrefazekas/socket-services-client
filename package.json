@@ -1,0 +1,47 @@
+{
+  "name": "socket-services-client",
+  "version": "0.0.1",
+  "description": "Exceptionally featureful Websocket-based REST middleware",
+  "keywords": [
+    "websocket",
+    "rest",
+    "restful",
+    "api"
+  ],
+  "homepage": "https://github.com/imrefazekas/socket-services-client",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/imrefazekas/socket-services-client.git"
+  },
+  "bugs": {
+    "url": "http://github.com/imrefazekas/socket-services-client/issues"
+  },
+  "author": {
+    "name": "Imre Fazekas",
+    "email": "imre.fazekas@icloud.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib/socket-services-client.js",
+  "dependencies": {
+    "clerobee": "latest",
+    "lodash": "latest",
+    "socket.io-client": "~1"
+  },
+  "devDependencies": {
+    "chai": "latest",
+    "gulp": "latest",
+    "gulp-jshint": "latest",
+    "gulp-load-plugins": "latest",
+    "gulp-mocha": "latest",
+    "socket-services": "latest"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "_id": "socket-services-client@1.3.1"
+}
